@@ -16,7 +16,7 @@ This app scaffold comes with the following features:
 <img src="https://marketmix.com/git-assets/neutralino-blazor/neutralino-blazor-wasm-linux.jpg">
 
 ## Neutralino & Blazor: How to integrate
-Clone this repo and setup your Neutralino environment as usual. Go to the _dotnet folder and create your Blazor WASM app:
+Clone this repo and setup your Neutralino environment as usual. Go to the `_dotnet` folder and create your Blazor WASM app:
 ```bash
 cd _dotnet
 dotnet new blazorwasm -n myapp
@@ -57,17 +57,9 @@ This simple example illustrates how to call JS code from C#, doing things outsid
 
 ```html
 @page "/"
-@using neutralino_blazor.Services
-@inject ApiDatabase Api
-@inject Globals Globals
 @inject IJSRuntime JS
 
-<MudText Typo="Typo.h2">Hello World!</MudText>
-<MudText Style="margin-bottom: 20px">Built with MudBlazor.</MudText>
-
-<div style="margin-top: 20px">
-    <MudButton Variant="Variant.Filled" Color="Color.Primary" DropShadow="false" @onclick="OnTestNeutralinoAPI">Call the Neutralino API</MudButton>
-</div>
+<MudButton Variant="Variant.Filled" @onclick="OnTestNeutralinoAPI">Call the Neutralino API</MudButton>
 
 @code {
     private async Task OnTestNeutralinoAPI()
