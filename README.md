@@ -49,7 +49,7 @@ neu run
 
 ## How does it work?
 
-The Blazor WASM file runs in Neutralino's webview inside a native OS window.
+The Blazor WASM runs in Neutralino's webview inside a native OS window.
 
 The 2 lines added to the index.html make the C++ Neutralino API accessible from Javascript.
 On C#'s side, JS functions can be called by using Blazor's JS InterOP. 
