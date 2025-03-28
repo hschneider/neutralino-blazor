@@ -46,7 +46,9 @@ neu run
 <p align="center">
 <img src="https://marketmix.com/git-assets/neutralino-blazor/neutralino-blazor-app.jpg" width="400" height="auto">
 </p>
+
 ## How does it work?
+
 The Blazor WASM file runs in Neutralino's webview inside a native OS window.
 
 The 2 lines added to the index.html make the Neutralino API accessible from Javascript.
