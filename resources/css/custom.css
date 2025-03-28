@@ -1,0 +1,47 @@
+:root {
+    --mud-typography-h1-size: 3.0rem !important;
+    --mud-typography-h2-size: 2.5rem !important;
+    --mud-typography-h3-size: 2.0rem !important;
+    --mud-typography-h4-size: 1.8rem !important;
+    /* --mud-palette-background: #f0f0f0 !important;
+    --mud-palette-drawer-background: #ebebeb !important; */
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+.mud-button-filled, .mud-button-filled:hover {
+    box-shadow: none !important;
+}
+
+.mud-switch-base-large .mud-switch-button {
+    padding: 10px 0 5px 11px;
+    zoom: 0.55;
+}
+.mud-switch-base-medium .mud-switch-button {
+    padding: 10px 0 5px 10px;
+    zoom: 0.5;
+}
+.mud-switch-base-small .mud-switch-button {
+    padding: 4px 0 5px 5px;
+    zoom: 0.6;
+}
+
+/* Match every iPhone in portrait mode */
+@media only screen
+and (max-width: 490px)
+and (orientation: portrait) {
+    .mud-drawer {
+        top: -13px;
+        padding-top: 120px;
+    }
+    .mud-appbar.mud-appbar-fixed-top {
+        top: 45px;
+    }
+}

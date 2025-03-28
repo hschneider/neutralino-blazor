@@ -1,0 +1,6 @@
+/.tmp/
+/dist/
+/.idea/
+/bin/
+/_dotnet/neutralino-blazor/bin/
+/_dotnet/neutralino-blazor/obj/

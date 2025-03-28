@@ -1,0 +1,19 @@
+@page "/"
+@using neutralino_blazor.Services
+@inject ApiDatabase Api
+@inject Globals Globals
+@inject IJSRuntime JS
+
+<MudText Typo="Typo.h2">Hello World!</MudText>
+<MudText Style="margin-bottom: 20px">Built with MudBlazor.</MudText>
+
+<div style="margin-top: 20px">
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" DropShadow="false" @onclick="OnTestNeutralinoAPI">Call the Neutralino API</MudButton>
+</div>
+
+@code {
+    private async Task OnTestNeutralinoAPI()
+    {
+        await JS.InvokeVoidAsync("Neutralino.os.showMessageBox", "Info", "Neutralino says: Hi Blazor!");
+    }
+}

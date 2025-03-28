@@ -1,0 +1,25 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+.page[b-0kac8m51q2] {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+main[b-0kac8m51q2] {
+    flex: 1;
+}
+
+@media (max-width: 640.98px) {
+
+}
+
+@media (min-width: 641px) {
+    .sidebar[b-0kac8m51q2] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+}
