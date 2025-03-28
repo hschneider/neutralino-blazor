@@ -59,7 +59,7 @@ This simple example illustrates how to call JS code from C#, doing things outsid
 @page "/"
 @inject IJSRuntime JS
 
-<MudButton Variant="Variant.Filled" @onclick="OnTestNeutralinoAPI">Call the Neutralino API</MudButton>
+<MudButton @onclick="OnTestNeutralinoAPI">Call the Neutralino API</MudButton>
 
 @code {
     private async Task OnTestNeutralinoAPI()
