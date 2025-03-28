@@ -53,7 +53,7 @@ The Blazor WASM file runs in Neutralino's webview inside a native OS window.
 
 The 2 lines added to the index.html make the C++ Neutralino API accessible from Javascript.
 On C#'s side, JS functions can be called by using Blazor's JS InterOP. 
-You an also call C# functions from JS, which makes the integration perfect.
+Vice-versa you can call C# functions from JS, which makes the integration perfect.
 
 This simple example illustrates how to call JS code from C#, doing things outside the WASM sandbox:
 
