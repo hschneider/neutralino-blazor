@@ -74,7 +74,7 @@ We do an async call to the Neutralino API by using Blazor's JS InterOp, here the
 
 So when you click the "Call the Neutralino API" button, an os-native dialog pops up. 
 
-You can also do more complex calls or call C# code from JS. Read more [about Blazor's JS InterOp here](https://learn.microsoft.com/en-us/aspnet/core/blazor/javascript-interoperability/?view=aspnetcore-9.0).
+You can also do more complex calls or the other way around, call C# code from JS. Read more [about Blazor's JS InterOp here](https://learn.microsoft.com/en-us/aspnet/core/blazor/javascript-interoperability/?view=aspnetcore-9.0).
 
 ## More about Neutralino
 
