@@ -44,7 +44,7 @@ After publishing you can run the app with:
 neu run
 ```
 <p align="center">
-<img src="https://marketmix.com/git-assets/neutralino-blazor/neutralino-blazor-app.jpg" style="max-width:400px">
+<img src="https://marketmix.com/git-assets/neutralino-blazor/neutralino-blazor-app.jpg" width="400" height="auto">
 </p>
 ## How does it work?
 The Blazor WASM file runs in Neutralino's webview inside a native OS window.
