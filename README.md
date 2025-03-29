@@ -38,6 +38,7 @@ Make sure, that these 2 folders do not get lost:
 - resources/icons
 
 The `_dotnet/publish.sh` script does all these steps for the demo app included. The modified `index.html` is located in `_dotnet/resources` and copied as well. 
+
 Test your app with:
 ```bash
 neu run
