@@ -37,8 +37,10 @@ Make sure, that these 2 folders do not get lost:
 - resources/js
 - resources/icons
 
-The `_dotnet/publish.sh` script does all these steps for the demo app included. The modified `index.html` is located in `_dotnet/resources` and copied as well.
-
+The `_dotnet/publish.sh` script does all these steps for the demo app included. The modified `index.html` is located in `_dotnet/resources` and copied as well. After this simply run
+```
+neu build
+```
 Neutralino depends **libwebkit2gtk**, so you might need to install it on your target platform:
 ```
 sudo apt install libwebkit2gtk-4.1-0
