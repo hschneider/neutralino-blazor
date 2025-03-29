@@ -12,6 +12,8 @@ This app scaffold comes with the following features:
 - Bypass CORS issues with e.g. [Neutralino's CURL extension](https://github.com/hschneider/neutralino-curl).
 - Comes with only the code you really need.
 - MudBlazor integrated.
+- Does not require Linux to build.
+- Neutralino produces only 2 files to deploy: An executable and its resources file.
 
 <img src="https://marketmix.com/git-assets/neutralino-blazor/neutralino-blazor-wasm-linux.jpg">
 
