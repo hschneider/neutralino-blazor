@@ -43,6 +43,10 @@ After publishing you can run the app with:
 ```bash
 neu run
 ```
+Neutralino depends **libwebkit2gtk**, so you might need to install it on your target platform:
+```
+sudo apt install libwebkit2gtk-4.1-0
+```
 <p align="center">
 <img src="https://marketmix.com/git-assets/neutralino-blazor/neutralino-blazor-app.jpg" width="400" height="auto">
 </p>
@@ -75,6 +79,9 @@ We do an async call to the Neutralino API by using Blazor's JS InterOp, here the
 So when you click the "Call the Neutralino API" button, an os-native dialog pops up. 
 
 You can also do more complex calls or the other way around, call C# code from JS. Read more [about Blazor's JS InterOp here](https://learn.microsoft.com/en-us/aspnet/core/blazor/javascript-interoperability/?view=aspnetcore-9.0).
+
+## Alternatives
+[BlazorWebview](https://github.com/JinShil/BlazorWebView) is a GTK-based alternative to run Blazor desktop apps on Linux and chromeOS.
 
 ## More about Neutralino
 
