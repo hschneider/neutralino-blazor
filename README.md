@@ -7,13 +7,13 @@
 This app scaffold comes with the following features:
 - Run a Blazor WASM app in a Neutralino Webview.
 - Deploy your desktop app to Linux and chromeOS, which is not possible with native Blazor MAUI.
+- Does not require Linux to build.
+- Neutralino produces only 2 files to deploy: An executable and its resources file.
 - Access all system-resources from the Blazor WASM sandbox through Neutralino's powerful API.
 - Use all available [Neutralino Extensions](https://neutralino.js.org/resources/) from your C# code.
 - Bypass CORS issues with e.g. [Neutralino's CURL extension](https://github.com/hschneider/neutralino-curl).
 - Comes with only the code you really need.
 - MudBlazor integrated.
-- Does not require Linux to build.
-- Neutralino produces only 2 files to deploy: An executable and its resources file.
 
 <img src="https://marketmix.com/git-assets/neutralino-blazor/neutralino-blazor-wasm-linux.jpg">
 
