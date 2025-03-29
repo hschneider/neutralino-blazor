@@ -37,17 +37,18 @@ Make sure, that these 2 folders do not get lost:
 - resources/js
 - resources/icons
 
-The `_dotnet/publish.sh` script does all these steps for the demo app included. The modified `index.html` is located in `_dotnet/resources` and copied as well. After this simply run
+The `_dotnet/publish.sh` script does all these steps for the demo app included. The modified `index.html` is located in `_dotnet/resources` and copied as well. 
+Test your app with:
+```bash
+neu run
+```
+Then build it with
 ```
 neu build
 ```
-Neutralino depends on **libwebkit2gtk**, so if your app does not start, you might need to install it on your target platform:
+Neutralino depends on **libwebkit2gtk** on the target platfrom. So if your app does not start, you might need to install it:
 ```
 sudo apt install libwebkit2gtk-4.1-0
-```
-After publishing you can run the app with:
-```bash
-neu run
 ```
 <p align="center">
 <img src="https://marketmix.com/git-assets/neutralino-blazor/neutralino-blazor-app.jpg" width="400" height="auto">
