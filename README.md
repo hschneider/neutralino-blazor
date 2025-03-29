@@ -33,7 +33,7 @@ dotnet publish -c Release
 ```
 Then copy the content of `bin/Release/net9.0/publish/wwwroot/` to Neutralino's resources folder.
 
-Make sure, that these 2 folders do not get lost:
+Make sure, that these 2 folders do not get lost or overwritten:
 - resources/js
 - resources/icons
 
