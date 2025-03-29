@@ -81,7 +81,7 @@ So when you click the "Call the Neutralino API" button, an os-native dialog pops
 You can also do more complex calls or the other way around, call C# code from JS. Read more [about Blazor's JS InterOp here](https://learn.microsoft.com/en-us/aspnet/core/blazor/javascript-interoperability/?view=aspnetcore-9.0).
 
 ## Alternatives
-[BlazorWebview](https://github.com/JinShil/BlazorWebView) is a GTK-based alternative to run Blazor desktop apps on Linux and chromeOS.
+[BlazorWebview](https://github.com/JinShil/BlazorWebView) is a GTK- and GirCore-based alternative to run Blazor desktop apps on Linux and chromeOS.
 
 ## More about Neutralino
 
