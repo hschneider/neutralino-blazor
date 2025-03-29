@@ -47,7 +47,7 @@ Then build it with
 ```
 neu build
 ```
-Neutralino depends on **libwebkit2gtk** on the target platfrom. So if your app does not start, you might need to install it:
+Neutralino depends on **libwebkit2gtk** on the target platfrom. So if your app does not start, you might need to install with:
 ```
 sudo apt install libwebkit2gtk-4.1-0
 ```
