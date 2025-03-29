@@ -41,7 +41,7 @@ The `_dotnet/publish.sh` script does all these steps for the demo app included. 
 ```
 neu build
 ```
-Neutralino depends **libwebkit2gtk**, so you might need to install it on your target platform:
+Neutralino depends on **libwebkit2gtk**, so if your app does not start, you might need to install it on your target platform:
 ```
 sudo apt install libwebkit2gtk-4.1-0
 ```
