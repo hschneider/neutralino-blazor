@@ -10,7 +10,7 @@ This app scaffold comes with the following features:
 - Does not require Linux to build.
 - Neutralino produces only 2 files to deploy: An executable and its resources file.
 - Access all system-resources from the Blazor WASM sandbox through Neutralino's powerful API.
-- Use all available [Neutralino Extensions](https://neutralino.js.org/resources/) from your C# code.
+- Use all available [Neutralino Extensions](https://neutralino.js.org/resources/) from your C# code. So you can mix C# with GoLang, Rust, Python, Bun etc.
 - Bypass CORS issues with e.g. [Neutralino's CURL extension](https://github.com/hschneider/neutralino-curl).
 - Comes with only the code you really need.
 - MudBlazor integrated.
